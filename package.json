@@ -1,6 +1,6 @@
 {
   "name": "getparameterbyname",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get query string values without jQuery.",
   "main": "index.js",
   "scripts": {
