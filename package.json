@@ -1,0 +1,22 @@
+{
+  "name": "getparameterbyname",
+  "version": "1.0.0",
+  "description": "Get query string values without jQuery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theel0ja/getParameterByName.git"
+  },
+  "author": "",
+  "license": "CC-BY-SA-3.0",
+  "bugs": {
+    "url": "https://github.com/theel0ja/getParameterByName/issues"
+  },
+  "homepage": "https://github.com/theel0ja/getParameterByName#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
