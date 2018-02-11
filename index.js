@@ -1,4 +1,4 @@
-module.exports = function(name, url) {
+function getParameterByName(name, url) {
   if (!url) url = window.location.href;
   name = name.replace(/[\[\]]/g, "\\$&");
   var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
@@ -7,3 +7,5 @@ module.exports = function(name, url) {
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
+
+module.exports = getParameterByName;

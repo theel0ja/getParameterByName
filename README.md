@@ -6,9 +6,9 @@
 
 ## Usage
 
-<!-- ### Use in browser
+### Use in browser
 ```html
-<script src="https://unpkg.com/getparameterbyname@1.0.0/dist/index.js"></script>
+<script src="https://unpkg.com/getparameterbyname/dist/bundle.min.js"></script>
 
 <script>
   const url = 'https://www.example.com/search?q=nodejs';
@@ -18,7 +18,7 @@
   // Print queryParameterValue to console
   console.log(queryParameterValue);
 </script>
-``` -->
+```
 
 ### Get query parameter from url
 ```js
