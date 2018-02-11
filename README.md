@@ -6,9 +6,23 @@
 
 ## Usage
 
+<!-- ### Use in browser
+```html
+<script src="https://unpkg.com/getparameterbyname@1.0.0/dist/index.js"></script>
+
+<script>
+  const url = 'https://www.example.com/search?q=nodejs';
+
+  const queryParameterValue = getQueryParameterByName('q', url);
+
+  // Print queryParameterValue to console
+  console.log(queryParameterValue);
+</script>
+``` -->
+
 ### Get query parameter from url
 ```js
-import getQueryParameterByName from './index';
+import getQueryParameterByName from 'getqueryparameterbyname';
 
 const url = 'https://www.example.com/search?q=nodejs';
 
