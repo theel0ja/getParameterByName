@@ -1,1 +1,1 @@
-window.getQueryParameterByName = require('./index');
+window.getParameterByName = require('./index');
