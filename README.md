@@ -1,5 +1,7 @@
 # getParameterByName
 
+[![Build Status](https://travis-ci.org/theel0ja/getParameterByName.svg?branch=master)](https://travis-ci.org/theel0ja/getParameterByName)
+
 [Stackoverflow answer](https://stackoverflow.com/a/901144/6451184) packaged as NPM package.
 
 ## Usage
